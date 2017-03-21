@@ -1,17 +1,7 @@
 $(document).ready(function(){
 
-$("p").click(function(){
-  // alert("test");
-  $(".initially-showing").toggle();
-  $(".initially-hidden").toggle();
-});
-
-
-
-
-
-
-
-
+  $(".col-md-2").click(function(event){
+    $(this).children('p').toggle();
+  });
 
 });

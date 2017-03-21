@@ -1,0 +1,15 @@
+.col-md-3 {
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+}
+
+/***JavaScript***/
+.initially-hidden{
+  display: none;
+}
+
+.initially-showing{
+
+}
